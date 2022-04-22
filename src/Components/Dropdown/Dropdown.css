@@ -1,0 +1,18 @@
+.dropdown {
+	margin: 20px 0px;
+}
+
+.dropdown > div > div > span,
+.dropdown > div > div > span:hover {
+	cursor: pointer;
+}
+
+.dropdown > div > div > span:hover {
+	background-color: rgb(241, 241, 241);
+}
+
+@media only screen and (max-width: 1024px) {
+	.dropdown {
+		margin: 20px;
+	}
+}

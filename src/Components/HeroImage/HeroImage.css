@@ -1,0 +1,18 @@
+div.hero-image {
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	div.hero-image {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	div.hero-image {
+		height: 220px;
+	}
+}

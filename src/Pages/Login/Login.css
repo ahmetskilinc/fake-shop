@@ -1,0 +1,8 @@
+.columns > .column {
+  padding: 28px;
+}
+
+.columns > .column:first-child,
+.columns > .column:last-child {
+  padding: 0;
+}
